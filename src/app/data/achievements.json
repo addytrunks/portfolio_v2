@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Winner at GDG Hackatonic 2025",
+    "description": "Secured 1st place out of 111 teams at PSG iTech, Coimbatore. Built GeoSense, a geospatial intelligence solution, during a 24-hour hackathon organized by Google Developer Groups.",
+    "icon": "Trophy",
+    "date": "2025",
+    "color": "border-yellow-500/50",
+    "iconColor": "text-yellow-500"
+  },
+  {
+    "title": "Runner up at Smart India Hackathon 2024",
+    "description": "Finalist at SIH Grand Finale held by Ministry of Education, GoI. Developed LINGUA, an ISL-to-speech and speech-to-ISL translation solution addressing diverse societal use cases. Secured runner-up position after a 36-hour development sprint.",
+    "icon": "Award",
+    "date": "2024",
+    "color": "border-gray-400/50",
+    "iconColor": "text-gray-300"
+  }
+]

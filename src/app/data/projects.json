@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Vehicle Counter",
+    "description": "Utilizes YOLOv8 for real-time object detection and the SORT algorithm for tracking to accurately detect and count vehicles passing through a predefined line in a video feed.",
+    "tech": ["Python", "OpenCV", "YOLOv8"],
+    "github": "https://github.com/addytrunks/object-detection/tree/main/project_1_car_counter",
+    "link": "https://www.linkedin.com/posts/adhithya-srivatsan-359973211_machinelearning-computervision-yolo-activity-7213429946185076736-YZdJ"
+  },
+  {
+    "title": "Trip Planner",
+    "description": "AI-based travel planning tool that generates personalized 7-day itineraries based on user preferences using Crew AI, Streamlit, and GPT-4.",
+    "tech": ["Python", "Langchain", "CrewAI", "GPT-4"],
+    "github": "https://github.com/addytrunks/trip_planner",
+    "link": "https://github.com/addytrunks/trip_planner"
+  },
+  {
+    "title": "Proximity",
+    "description": "Social media app displaying posts only within a 35 km radius. Features authentication, CRUD operations, and infinite scroll.",
+    "tech": ["Next.js", "MongoDB", "Tailwind", "Prisma"],
+    "github": "https://github.com/addytrunks/proximity",
+    "link": "https://proximity-seven.vercel.app"
+  },
+  {
+    "title": "Gesture Groove",
+    "description": "Computer vision project allowing users to adjust system volume using simple hand gestures by tracking thumb-index finger distance.",
+    "tech": ["Python", "OpenCV"],
+    "github": "https://github.com/addytrunks/open-cv/tree/main/PROJ_VOLUME_CONTROL",
+    "link": "https://shorturl.at/3fAoE"
+  },
+  {
+    "title": "Ask My PDF",
+    "description": "Allows users to upload documents and ask questions about their content using AI. Features secure auth and efficient document management.",
+    "tech": ["Next.js", "Langchain", "TypeScript"],
+    "github": "https://github.com/addytrunks/askMyPDF",
+    "link": "https://www.linkedin.com/posts/adhithya-srivatsan-359973211_nextjs-ai-langchain-activity-7230508596134830081-0jIu"
+  },
+  {
+    "title": "ChurnGuard",
+    "description": "Deep learning model predicting customer churn for a bank using TensorFlow's ANN, trained on a dataset of 10,000 customers.",
+    "tech": ["Python", "TensorFlow", "ANN"],
+    "github": "https://github.com/addytrunks/machine-learning/tree/main/ANN",
+    "link": "https://github.com/addytrunks/machine-learning/tree/main/ANN"
+  },
+  {
+    "title": "Lingua",
+    "description": "AI-driven communication system for seamless translation between speech, text, and Indian Sign Language (ISL).",
+    "tech": ["Python", "OpenCV", "Langchain"],
+    "github": "https://github.com/Team-GenX-H4CK3RS/Lingua",
+    "link": "https://github.com/Team-GenX-H4CK3RS/Lingua"
+  }
+]
