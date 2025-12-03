@@ -1,20 +1,20 @@
 {
-  "paragraphs": [
-    "Hello! I'm Adhithya Srivatsan, currently pursuing B.Tech in AI and DS at Shiv Nadar University.",
-    "I've been captivated by coding since 9th grade, leading me to dive into web development and nurture aspirations of becoming a data scientist.",
-    "I've built this website to showcase my coding journey. Eager to embrace every coding challenge, I invite you to explore my projects, and don't forget to check out the code on my GitHub — the links are under my pinned projects."
-  ],
-  "closing": "Happy coding exploration!",
-  "profile": {
-    "name": "Adhithya Srivatsan",
-    "education": "B.Tech AI & DS",
-    "university": "Shiv Nadar University",
-    "interests": [
-      "Web Development",
-      "Data Science",
-      "Agentic AI",
-      "Machine Learning/Deep Learning"
-    ],
-    "status": "Coding..."
-  }
+	"paragraphs": [
+		"Hello! I'm Adhithya Srivatsan, currently pursuing B.Tech in AI and DS at Shiv Nadar University.",
+		"I've been captivated by coding since 9th grade, leading me to dive into web development and nurture aspirations of becoming a data scientist.",
+		"I've built this website to showcase my coding journey. Eager to embrace every coding challenge, I invite you to explore my projects, and don't forget to check out the code on my GitHub — the links are under my pinned projects."
+	],
+	"closing": "Happy coding exploration!",
+	"profile": {
+		"name": "Adhithya Srivatsan",
+		"education": "B.Tech AI & DS",
+		"university": "Shiv Nadar University",
+		"interests": [
+			"Web Development",
+			"Data Science",
+			"Agentic AI",
+			"Machine Learning/Deep Learning"
+		],
+		"status": "Coding..."
+	}
 }

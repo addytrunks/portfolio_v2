@@ -1,26 +1,45 @@
 [
-  {
-    "id": "languages",
-    "label": "Languages",
-    "icon": "Terminal",
-    "skills": ["Python", "C", "Java", "TypeScript", "JavaScript"]
-  },
-  {
-    "id": "web",
-    "label": "Web Dev",
-    "icon": "Globe",
-    "skills": ["React.js", "Next.js", "Node.js", "FastAPI", "HTML5/CSS3", "Tailwind CSS", "Sanity"]
-  },
-  {
-    "id": "ai",
-    "label": "AI / ML",
-    "icon": "Cpu",
-    "skills": ["PyTorch", "TensorFlow", "OpenCV", "LangChain", "CrewAI", "Scikit-learn", "Pandas"]
-  },
-  {
-    "id": "tools",
-    "label": "Tools & DB",
-    "icon": "Database",
-    "skills": ["MongoDB", "MySQL", "Firebase", "Docker", "Kubernetes", "Git", "Vercel"]
-  }
+	{
+		"id": "languages",
+		"label": "Languages",
+		"icon": "Terminal",
+		"skills": ["Python", "C", "Java", "TypeScript", "JavaScript"]
+	},
+	{
+		"id": "web",
+		"label": "Web Dev",
+		"icon": "Globe",
+		"skills": [
+			"React.js",
+			"Next.js",
+			"Node.js",
+			"FastAPI",
+			"HTML5",
+			"CSS3",
+			"Tailwind CSS",
+			"Sanity",
+			"Docker"
+		]
+	},
+	{
+		"id": "ai",
+		"label": "AI / ML",
+		"icon": "Cpu",
+		"skills": [
+			"PyTorch",
+			"TensorFlow",
+			"Scikit-learn",
+			"Numpy",
+			"Pandas",
+			"OpenCV",
+			"LangChain",
+			"CrewAI"
+		]
+	},
+	{
+		"id": "tools",
+		"label": "Tools & DB",
+		"icon": "Database",
+		"skills": ["MongoDB", "MySQL", "Firebase", "Git", "Vercel", "Netlify"]
+	}
 ]
