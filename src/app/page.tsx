@@ -6,6 +6,12 @@ import Projects from "@/components/sections/Projects";
 import Achievements from "@/components/sections/Achievements";
 import Contact from "@/components/sections/Contact";
 
+/**
+ * Home Page
+ * 
+ * The main landing page of the portfolio.
+ * It composes various sections (Hero, About, Skills, etc.) into a single scrolling view.
+ */
 export default function Home() {
 	return (
 		<main className="max-w-5xl mx-auto">

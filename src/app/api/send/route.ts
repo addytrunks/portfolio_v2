@@ -1,3 +1,11 @@
+/**
+ * Email API Route
+ * 
+ * Handles contact form submissions using Resend.
+ * - Validates input using Zod.
+ * - Sends an email to the portfolio owner.
+ * - Returns success/error response.
+ */
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import * as z from "zod";

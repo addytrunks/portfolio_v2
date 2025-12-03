@@ -11,6 +11,17 @@ import ClearHistoryModal from "./ClearHistoryModal";
 import ChatLoader from "./ChatLoader";
 import ChatEmptyState from "./ChatEmptyState";
 
+/**
+ * ChatWidget Component
+ * 
+ * A floating chat interface that allows users to interact with the portfolio bot.
+ * 
+ * Features:
+ * - Persists chat history to local storage (max 50 messages).
+ * - Uses a sliding window approach for API calls (sends last 10 messages).
+ * - Auto-resizing input field.
+ * - Markdown support for messages.
+ */
 export default function ChatWidget() {
 	const [isOpen, setIsOpen] = useState(false);
 	const [showClearConfirm, setShowClearConfirm] = useState(false);

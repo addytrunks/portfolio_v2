@@ -17,6 +17,14 @@ export const metadata: Metadata = {
 	description: "Web Developer & Aspiring Data Scientist",
 };
 
+/**
+ * Root Layout
+ * 
+ * The top-level layout for the application.
+ * - Applies global styles and fonts (Inter, JetBrains Mono).
+ * - Wraps the content in the TerminalLayout.
+ * - Includes global components like ChatWidget and Toaster.
+ */
 export default function RootLayout({
 	children,
 }: Readonly<{

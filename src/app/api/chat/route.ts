@@ -1,3 +1,13 @@
+/**
+ * Chat API Route
+ * 
+ * This route handles the chat interaction for the portfolio bot.
+ * It uses LangChain to:
+ * 1. Rephrase follow-up questions into standalone questions.
+ * 2. Retrieve relevant context from the vector store (RAG).
+ * 3. Generate a response using the Llama-3 model via OpenRouter.
+ * 4. Stream the response back to the client.
+ */
 import { NextRequest } from "next/server";
 import { ChatOpenAI } from "@langchain/openai";
 import { PromptTemplate } from "@langchain/core/prompts";
@@ -14,12 +24,7 @@ import { Document } from "@langchain/core/documents";
 export const maxDuration = 60;
 
 export async function POST(req: NextRequest) {
-	// const ip = req.headers.get("x-forwarded-for") ?? "127.0.0.1";
-
-	// if (!limiter(ip)) {
-	// 	return new Response("Too Many Requests", { status: 429 });
-	// }
-
+	// 1. Parse the request body
 	const { messages } = await req.json();
 	const currentMessage = messages[messages.length - 1].content;
 
@@ -35,6 +40,7 @@ export async function POST(req: NextRequest) {
 	const vectorStore = await getVectorStore();
 	const retriever = vectorStore.asRetriever(4);
 
+	// 2. Initialize the Chat Model
 	const model = new ChatOpenAI({
 		modelName: "meta-llama/llama-3.3-70b-instruct:free",
 		openAIApiKey: process.env.OPENROUTER_API_KEY,
@@ -44,8 +50,9 @@ export async function POST(req: NextRequest) {
 		temperature: 0.7,
 	});
 
-	// 1. Standalone Question Chain
-	// Rephrase the follow-up question into a standalone question based on history
+	// 3. Define the Rephrase Chain
+	// This chain takes the chat history and the new question, and rephrases the question
+	// to be standalone (i.e., makes sense without the history).
 	const rephrasePrompt = PromptTemplate.fromTemplate(`
     Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question.
     
@@ -62,7 +69,8 @@ export async function POST(req: NextRequest) {
 		new StringOutputParser(),
 	]);
 
-	// 2. Main Retrieval & Answer Chain
+	// 4. Define the Retrieval & Answer Chain
+	// This chain retrieves context and generates the final answer.
 	const answerPrompt = PromptTemplate.fromTemplate(`
     You are a helpful AI assistant for Adhithya Srivatsan's portfolio.
     Your goal is to answer questions about Adhithya and his portfolio based ONLY on the provided context.

@@ -1,4 +1,11 @@
 "use client";
+/**
+ * Hero Section
+ * 
+ * The first section users see.
+ * Displays a greeting, a brief intro, and a pixelated profile image.
+ * Uses Framer Motion for entrance animations.
+ */
 import { motion } from "framer-motion";
 import CommandInput from "../ui/CommandInput";
 

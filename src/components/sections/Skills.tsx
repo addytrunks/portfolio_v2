@@ -1,5 +1,12 @@
 "use client";
 
+/**
+ * Skills Section
+ * 
+ * Displays a list of technical skills categorized by type (Frontend, Backend, etc.).
+ * Data is loaded from a JSON file.
+ * Renders skills as interactive tags/badges.
+ */
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Cpu, Database, Globe, Layers, Terminal } from "lucide-react";
