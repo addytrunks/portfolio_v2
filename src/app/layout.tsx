@@ -3,26 +3,34 @@ import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import TerminalLayout from "@/components/layout/TerminalLayout";
 
+import ChatWidget from "@/components/chat";
+import { Toaster } from "@/components/ui/sonner";
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
-const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
+const jetbrainsMono = JetBrains_Mono({
+	subsets: ["latin"],
+	variable: "--font-mono",
+});
 
 export const metadata: Metadata = {
-  title: "Adhithya Srivatsan | Portfolio",
-  description: "Web Developer & Aspiring Data Scientist",
+	title: "Adhithya Srivatsan | Portfolio",
+	description: "Web Developer & Aspiring Data Scientist",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en" className="dark">
-      <body className={`${inter.variable} ${jetbrainsMono.variable} font-mono antialiased bg-black text-white`}>
-        <TerminalLayout>
-          {children}
-        </TerminalLayout>
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en" className="dark">
+			<body
+				className={`${inter.variable} ${jetbrainsMono.variable} font-mono antialiased bg-black text-white`}
+			>
+				<TerminalLayout>{children}</TerminalLayout>
+				<ChatWidget />
+				<Toaster />
+			</body>
+		</html>
+	);
 }
