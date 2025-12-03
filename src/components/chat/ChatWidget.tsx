@@ -37,13 +37,14 @@ export default function ChatWidget() {
 		}
 	}, []);
 
-	// Save chat history to local storage
+	// Save chat history to local storage (Sliding Window: Max 50 messages)
 	useEffect(() => {
 		if (messages.length > 0) {
+			const messagesToSave = messages.slice(-50); // Keep last 50 messages
 			localStorage.setItem(
 				"portfolio_chat_history",
 				JSON.stringify({
-					messages,
+					messages: messagesToSave,
 					timestamp: Date.now(),
 				}),
 			);
@@ -71,10 +72,13 @@ export default function ChatWidget() {
 		setIsLoading(true);
 
 		try {
+			// Sliding Window: Send only the last 10 messages for context
+			const recentMessages = [...messages, userMessage].slice(-10);
+			
 			const response = await fetch("/api/chat", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({ messages: [...messages, userMessage] }),
+				body: JSON.stringify({ messages: recentMessages }),
 			});
 
 			if (!response.ok) throw new Error("Failed to fetch");

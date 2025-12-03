@@ -9,9 +9,17 @@ import { StringOutputParser } from "@langchain/core/output_parsers";
 import { getVectorStore } from "@/lib/rag";
 import { Document } from "@langchain/core/documents";
 
+
+
 export const maxDuration = 60;
 
 export async function POST(req: NextRequest) {
+	// const ip = req.headers.get("x-forwarded-for") ?? "127.0.0.1";
+
+	// if (!limiter(ip)) {
+	// 	return new Response("Too Many Requests", { status: 429 });
+	// }
+
 	const { messages } = await req.json();
 	const currentMessage = messages[messages.length - 1].content;
 

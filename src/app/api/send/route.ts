@@ -15,7 +15,18 @@ const contactFormSchema = z.object({
 		.min(10, { message: "Message must be at least 10 characters." }),
 });
 
+
+
 export async function POST(req: Request) {
+	// const ip = req.headers.get("x-forwarded-for") ?? "127.0.0.1";
+
+	// if (!limiter(ip)) {
+	// 	return NextResponse.json(
+	// 		{ error: "Too many requests. Please try again later." },
+	// 		{ status: 429 },
+	// 	);
+	// }
+
 	try {
 		if (!process.env.RESEND_API_KEY) {
 			throw new Error("Missing Resend API Key");
