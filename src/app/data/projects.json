@@ -28,18 +28,18 @@
 		"link": "https://shorturl.at/3fAoE"
 	},
 	{
-		"title": "Ask My PDF",
-		"description": "Allows users to upload documents and ask questions about their content using AI. Features secure auth and efficient document management.",
-		"tech": ["Next.js", "Langchain", "TypeScript"],
-		"github": "https://github.com/addytrunks/askMyPDF",
-		"link": "https://www.linkedin.com/posts/adhithya-srivatsan-359973211_nextjs-ai-langchain-activity-7230508596134830081-0jIu"
-	},
-	{
 		"title": "ChurnGuard",
 		"description": "Deep learning model predicting customer churn for a bank using TensorFlow's ANN, trained on a dataset of 10,000 customers.",
 		"tech": ["Python", "TensorFlow", "ANN"],
 		"github": "https://github.com/addytrunks/machine-learning/tree/main/ANN",
 		"link": "https://github.com/addytrunks/machine-learning/tree/main/ANN"
+	},
+	{
+		"title": "Ask My PDF",
+		"description": "Allows users to upload documents and ask questions about their content using AI. Features secure auth and efficient document management.",
+		"tech": ["Next.js", "Langchain", "TypeScript"],
+		"github": "https://github.com/addytrunks/askMyPDF",
+		"link": "https://www.linkedin.com/posts/adhithya-srivatsan-359973211_nextjs-ai-langchain-activity-7230508596134830081-0jIu"
 	},
 	{
 		"title": "Lingua",

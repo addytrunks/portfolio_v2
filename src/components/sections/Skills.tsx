@@ -47,7 +47,7 @@ const Skills = () => {
 
 				<div className="flex flex-col md:flex-row gap-8 bg-[#0a0a0a] border border-gray-800 rounded-xl p-4 md:p-10 relative overflow-hidden">
 					{/* Background Grid Animation */}
-					<div className="absolute inset-0 grid grid-cols-[repeat(20,minmax(0,1fr))] opacity-5 pointer-events-none">
+					<div className="absolute inset-0 grid grid-cols-20 opacity-5 pointer-events-none">
 						{[...Array(400)].map((_, i) => (
 							<div
 								key={i}
@@ -63,7 +63,7 @@ const Skills = () => {
 								key={cat.id}
 								onClick={() => setActiveCategory(cat.id)}
 								className={cn(
-									"flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-mono transition-all whitespace-nowrap",
+									"flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-mono transition-all whitespace-nowrap cursor-pointer",
 									activeCategory === cat.id
 										? "bg-primary/20 text-primary border border-primary/50 shadow-[0_0_15px_rgba(168,85,247,0.3)]"
 										: "text-gray-400 hover:bg-white/5 hover:text-white",
@@ -107,7 +107,7 @@ const Skills = () => {
 											transition={{ delay: index * 0.05 }}
 											className="group relative bg-[#111] border border-gray-800 p-3 rounded hover:border-secondary/50 transition-colors cursor-default overflow-hidden"
 										>
-											<div className="absolute inset-0 bg-gradient-to-r from-secondary/0 via-secondary/10 to-secondary/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
+											<div className="absolute inset-0 bg-linear-to-r from-secondary/0 via-secondary/10 to-secondary/0 -translate-x-full group-hover:translate-x-0 transition-transform duration-1000" />
 											<div className="flex items-center justify-between relative z-10">
 												<span className="text-gray-300 font-mono text-sm group-hover:text-white transition-colors">
 													{skill}
