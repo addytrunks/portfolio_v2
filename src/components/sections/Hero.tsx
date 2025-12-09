@@ -6,6 +6,7 @@
  * Displays a greeting, a brief intro, and a pixelated profile image.
  * Uses Framer Motion for entrance animations.
  */
+import Image from "next/image";
 import { motion } from "framer-motion";
 import CommandInput from "../ui/CommandInput";
 
@@ -69,11 +70,14 @@ const Hero = () => {
 				className="hidden md:block w-64 h-64 lg:w-80 lg:h-80 relative group"
 			>
 				<div className="relative w-full h-full rounded-lg overflow-hidden border-2 border-primary/50 shadow-[0_0_30px_color-mix(in_srgb,var(--primary)_30%,transparent)] group-hover:shadow-[0_0_50px_color-mix(in_srgb,var(--primary)_50%,transparent)] transition-all duration-300">
-					<img
+					<Image
 						src="/pixel-me.png"
 						alt="Pixelated Portrait"
-						className="w-full h-full object-cover pixelated hover:scale-110 transition-transform duration-500"
+						fill
+						sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+						className="object-cover pixelated hover:scale-110 transition-transform duration-500"
 						style={{ imageRendering: "pixelated" }}
+						priority
 					/>
 					<div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent pointer-events-none"></div>
 				</div>

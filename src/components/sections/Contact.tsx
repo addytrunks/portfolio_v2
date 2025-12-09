@@ -101,6 +101,8 @@ const Contact = () => {
 
 					<a
 						href={resumeLink}
+						target="_blank"
+						rel="noopener noreferrer"
 						className="flex items-center space-x-2 text-sm text-gray-500 hover:text-primary transition-colors border border-gray-800 px-4 py-2 rounded-full hover:border-primary/50"
 					>
 						<FileText className="w-4 h-4" />

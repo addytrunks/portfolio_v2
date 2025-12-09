@@ -33,6 +33,7 @@
 			"Pandas",
 			"OpenCV",
 			"LangChain",
+			"Langgraph",
 			"CrewAI"
 		]
 	},
