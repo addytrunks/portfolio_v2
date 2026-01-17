@@ -6,22 +6,6 @@
 		"skills": ["Python", "C", "Java", "TypeScript", "JavaScript"]
 	},
 	{
-		"id": "web",
-		"label": "Web Dev",
-		"icon": "Globe",
-		"skills": [
-			"React.js",
-			"Next.js",
-			"Node.js",
-			"FastAPI",
-			"HTML5",
-			"CSS3",
-			"Tailwind CSS",
-			"Sanity",
-			"Docker"
-		]
-	},
-	{
 		"id": "ai",
 		"label": "AI / ML",
 		"icon": "Cpu",
@@ -35,6 +19,22 @@
 			"LangChain",
 			"Langgraph",
 			"CrewAI"
+		]
+	},
+	{
+		"id": "web",
+		"label": "Web Dev",
+		"icon": "Globe",
+		"skills": [
+			"React.js",
+			"Next.js",
+			"Node.js",
+			"FastAPI",
+			"HTML5",
+			"CSS3",
+			"Tailwind CSS",
+			"Sanity",
+			"Docker"
 		]
 	},
 	{
