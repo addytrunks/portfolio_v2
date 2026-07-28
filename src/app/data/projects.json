@@ -14,6 +14,20 @@
 		"link": "https://github.com/addytrunks/trip_planner"
 	},
 	{
+		"title": "Customer Care AWS",
+		"description": "A customer care chatbot (agent) built using langchain with AWS Runtime in Bedrock Agentcore.",
+		"tech": ["Python", "Langchain","Langgraph" ,"AWS Bedrock"],
+		"github": "https://github.com/addytrunks/customer_care_aws",
+		"link": "https://github.com/addytrunks/customer_care_aws"
+	},
+		{
+		"title": "NewsLetter Agent",
+		"description": "An intelligent agent capable of autonomously finding relevant news articles on a given topic and compiling them into a professional, engaging newsletter.",
+		"tech": ["Python", "Langchain","Langgraph" ,"SERP","FastAPI","OpenRouter"],
+		"github": "https://github.com/addytrunks/newsletter_agent",
+		"link": "https://github.com/addytrunks/newsletter_agent"
+	},
+	{
 		"title": "Proximity",
 		"description": "Social media app displaying posts only within a 35 km radius. Features authentication, CRUD operations, and infinite scroll.",
 		"tech": ["Next.js", "MongoDB", "Tailwind", "Prisma"],
