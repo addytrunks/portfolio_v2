@@ -1,45 +1,10 @@
 [
 	{
-		"title":"Dibs: Panel Review Slot Booking",
-		"description":"Replaces the email-based negotiation between capstone teams and review panels with a small booking system: panels publish slots, teams request them, the panel votes, and the outcome is visible to everyone instead of buried in an inbox.",
-		"tech":["React JS","Fast API","PostgreSQL","Docker","Tanstack Query","Tailwind CSS"],
-		"github":"https://github.com/addytrunks/Dibs",
-		"link":"https://github.com/addytrunks/Dibs"
-	},
-	{
-		"title":"Dialogue-to-Frame Localization",
-		"description":"Give it a video URL + a line of dialogue -> get back the exact timestamp frame number matched text, confidence, and the rendered frame image",
-		"tech":["Python","Streamlit","Whisper","Fast API","VAD"],
-		"github":"https://github.com/addytrunks/dialogue-frame-locator",
-		"link":"https://youtu.be/FHyWBFyhU-w"
-	},
-	{
 		"title": "Vehicle Counter",
 		"description": "Utilizes YOLOv8 for real-time object detection and the SORT algorithm for tracking to accurately detect and count vehicles passing through a predefined line in a video feed.",
 		"tech": ["Python", "OpenCV", "YOLOv8"],
 		"github": "https://github.com/addytrunks/object-detection/tree/main/project_1_car_counter",
 		"link": "https://www.linkedin.com/posts/adhithya-srivatsan-359973211_machinelearning-computervision-yolo-activity-7213429946185076736-YZdJ"
-	},
-	{
-		"title": "Trip Planner",
-		"description": "AI-based travel planning tool that generates personalized 7-day itineraries based on user preferences using Crew AI, Streamlit, and GPT-4.",
-		"tech": ["Python", "Langchain", "CrewAI", "GPT-4"],
-		"github": "https://github.com/addytrunks/trip_planner",
-		"link": "https://github.com/addytrunks/trip_planner"
-	},
-	{
-		"title": "Customer Care AWS",
-		"description": "A customer care chatbot (agent) built using langchain with AWS Runtime in Bedrock Agentcore.",
-		"tech": ["Python", "Langchain","Langgraph" ,"AWS Bedrock"],
-		"github": "https://github.com/addytrunks/customer_care_aws",
-		"link": "https://github.com/addytrunks/customer_care_aws"
-	},
-		{
-		"title": "NewsLetter Agent",
-		"description": "An intelligent agent capable of autonomously finding relevant news articles on a given topic and compiling them into a professional, engaging newsletter.",
-		"tech": ["Python", "Langchain","Langgraph" ,"SERP","FastAPI","OpenRouter"],
-		"github": "https://github.com/addytrunks/newsletter_agent",
-		"link": "https://github.com/addytrunks/newsletter_agent"
 	},
 	{
 		"title": "Proximity",
@@ -70,6 +35,13 @@
 		"link": "https://www.linkedin.com/posts/adhithya-srivatsan-359973211_nextjs-ai-langchain-activity-7230508596134830081-0jIu"
 	},
 	{
+		"title": "Trip Planner",
+		"description": "AI-based travel planning tool that generates personalized 7-day itineraries based on user preferences using Crew AI, Streamlit, and GPT-4.",
+		"tech": ["Python", "Langchain", "CrewAI", "GPT-4"],
+		"github": "https://github.com/addytrunks/trip_planner",
+		"link": "https://github.com/addytrunks/trip_planner"
+	},
+	{
 		"title": "Lingua",
 		"description": "AI-driven communication system for seamless translation between speech, text, and Indian Sign Language (ISL).",
 		"tech": ["Python", "OpenCV", "Langchain"],
@@ -77,18 +49,31 @@
 		"link": "https://github.com/Team-GenX-H4CK3RS/Lingua"
 	},
 	{
-		"title": "Acquisitions API",
-		"description": "A containerized API project leveraging Docker, and Arcjet, with automated CI/CD pipelines. Built using Node.js and Express.js, powered by Neon Postgres with Drizzle ORM and Zod for robust validation—engineered to be secure, scalable, and production-grade.",
-		"tech": [
-			"Node.js",
-			"Express.js",
-			"Neon Postgres",
-			"Drizzle ORM",
-			"Zod",
-			"Docker",
-			"Arcjet"
-		],
-		"github": "https://github.com/addytrunks/acquisitions",
-		"link": "https://github.com/addytrunks/acquisitions"
+		"title": "Customer Care AWS",
+		"description": "A customer care chatbot (agent) built using langchain with AWS Runtime in Bedrock Agentcore.",
+		"tech": ["Python", "Langchain","Langgraph" ,"AWS Bedrock"],
+		"github": "https://github.com/addytrunks/customer_care_aws",
+		"link": "https://github.com/addytrunks/customer_care_aws"
+	},
+		{
+		"title": "NewsLetter Agent",
+		"description": "An intelligent agent capable of autonomously finding relevant news articles on a given topic and compiling them into a professional, engaging newsletter.",
+		"tech": ["Python", "Langchain","Langgraph" ,"SERP","FastAPI","OpenRouter"],
+		"github": "https://github.com/addytrunks/newsletter_agent",
+		"link": "https://github.com/addytrunks/newsletter_agent"
+	},
+	{
+		"title":"Dialogue-to-Frame Localization",
+		"description":"Give it a video URL + a line of dialogue -> get back the exact timestamp frame number matched text, confidence, and the rendered frame image",
+		"tech":["Python","Streamlit","Whisper","Fast API","VAD"],
+		"github":"https://github.com/addytrunks/dialogue-frame-locator",
+		"link":"https://youtu.be/FHyWBFyhU-w"
+	},
+	{
+		"title":"Dibs: Panel Review Slot Booking",
+		"description":"Replaces the email-based negotiation between capstone teams and review panels with a small booking system: panels publish slots, teams request them, the panel votes, and the outcome is visible to everyone instead of buried in an inbox.",
+		"tech":["React JS","Fast API","PostgreSQL","Docker","Tanstack Query","Tailwind CSS"],
+		"github":"https://github.com/addytrunks/Dibs",
+		"link":"https://github.com/addytrunks/Dibs"
 	}
 ]
