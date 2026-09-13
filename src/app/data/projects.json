@@ -1,5 +1,19 @@
 [
 	{
+		"title":"Dibs: Panel Review Slot Booking",
+		"description":"Replaces the email-based negotiation between capstone teams and review panels with a small booking system: panels publish slots, teams request them, the panel votes, and the outcome is visible to everyone instead of buried in an inbox.",
+		"tech":["React JS","Fast API","PostgreSQL","Docker","Tanstack Query","Tailwind CSS"],
+		"github":"https://github.com/addytrunks/Dibs",
+		"link":"https://github.com/addytrunks/Dibs"
+	},
+	{
+		"title":"Dialogue-to-Frame Localization",
+		"description":"Give it a video URL + a line of dialogue -> get back the exact timestamp frame number matched text, confidence, and the rendered frame image",
+		"tech":["Python","Streamlit","Whisper","Fast API","VAD"],
+		"github":"https://github.com/addytrunks/dialogue-frame-locator",
+		"link":"https://youtu.be/FHyWBFyhU-w"
+	},
+	{
 		"title": "Vehicle Counter",
 		"description": "Utilizes YOLOv8 for real-time object detection and the SORT algorithm for tracking to accurately detect and count vehicles passing through a predefined line in a video feed.",
 		"tech": ["Python", "OpenCV", "YOLOv8"],
