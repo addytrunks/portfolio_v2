@@ -62,6 +62,20 @@
 		"github": "https://github.com/addytrunks/newsletter_agent",
 		"link": "https://github.com/addytrunks/newsletter_agent"
 	},
+		{
+		"title": "Robust AI-Generated Image Detection",
+		"description": "EfficientNet-B5 detector for the NTIRE 2026 challenge that fuses RGB with an FFT frequency channel to spot AI-generated images under real-world distortions.",
+		"tech": ["Python", "PyTorch", "EfficientNet"],
+		"github": "https://github.com/addytrunks/IVP_NTIRE_2026",
+		"link": "https://github.com/addytrunks/IVP_NTIRE_2026"
+	},
+	{
+		"title": "Cross-Domain Sentiment Analysis",
+		"description": "Benchmarks how sentiment models trained on 48K general YouTube comments transfer to a single video, comparing text-cleaning variants, embeddings, classifiers and a fine-tuned RoBERTa.",
+		"tech": ["Python", "PyTorch", "scikit-learn"],
+		"github": "https://github.com/addytrunks/domain_adaptation_sentiment_analysis",
+		"link": "https://github.com/addytrunks/domain_adaptation_sentiment_analysis"
+	},
 	{
 		"title":"Dialogue-to-Frame Localization",
 		"description":"Give it a video URL + a line of dialogue -> get back the exact timestamp frame number matched text, confidence, and the rendered frame image",
