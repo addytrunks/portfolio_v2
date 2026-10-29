@@ -42,7 +42,7 @@ const Skills = () => {
 				className="w-full"
 			>
 				<h2 className="text-2xl md:text-3xl font-bold mb-8 text-primary flex items-center">
-					<span className="mr-2 text-secondary">02.</span> System Diagnostics
+					<span className="mr-2 text-secondary">03.</span> System Diagnostics
 				</h2>
 
 				<div className="flex flex-col md:flex-row gap-8 bg-[#0a0a0a] border border-gray-800 rounded-xl p-4 md:p-10 relative overflow-hidden">

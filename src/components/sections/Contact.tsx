@@ -88,7 +88,7 @@ const Contact = () => {
 				className="max-w-2xl mx-auto text-center w-full px-4"
 			>
 				<h2 className="text-2xl md:text-3xl font-bold mb-8 text-primary">
-					<span className="text-secondary">05.</span> Contact
+					<span className="text-secondary">07.</span> Contact
 				</h2>
 
 				<div className="flex flex-col items-center space-y-6 mb-12">

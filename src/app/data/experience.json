@@ -1,0 +1,17 @@
+[
+	{
+		"role": "AI Intern",
+		"company": "Indium Software",
+		"location": "Remote",
+		"date": "May 2026 – Jul 2026",
+		"summary": "Built an agentic API security testing platform over an 8-week internship. Instead of static test scripts, the system reads an API spec, reasons about it, and writes its own security-focused test cases.",
+		"points": [
+			"Designed a closed observe–analyze–regenerate loop in LangGraph with PostgreSQL-backed state checkpointing, so the system checks its own test coverage and generates more targeted tests in each reasoning cycle.",
+			"Built a two-pass HTTP execution engine that captures runtime authentication and setup context before running dependent test cases, removing the need to hardcode an auth flow for every endpoint.",
+			"Integrated Gemini models through LiteLLM with few-shot prompt libraries to generate structured test cases across OWASP API security categories: BOLA, authentication bypass, injection and mass assignment.",
+			"Deduplicated generated test payloads at the database level using SHA-256 canonicalization in PostgreSQL.",
+			"Set up a GitHub Actions CI pipeline that lints, type-checks and runs tests on every push and pull request."
+		],
+		"tech": ["LangGraph", "LiteLLM", "DeepSeek" ,"Gemini", "FastAPI", "PostgreSQL", "GitHub Actions"]
+	}
+]

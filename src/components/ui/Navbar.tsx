@@ -12,9 +12,11 @@ import { useRouterHash } from "@/hooks/useRouterHash";
 const navItems = [
 	{ name: "home", path: "/", hash: "" },
 	{ name: "about", path: "/#about", hash: "about" },
+	{ name: "experience", path: "/#experience", hash: "experience" },
 	{ name: "skills", path: "/#skills", hash: "skills" },
 	{ name: "projects", path: "/#projects", hash: "projects" },
 	{ name: "achievements", path: "/#achievements", hash: "achievements" },
+	{ name: "publications", path: "/#publications", hash: "publications" },
 	{ name: "contact", path: "/#contact", hash: "contact" },
 ];
 

@@ -24,11 +24,11 @@ const Projects = () => {
 				viewport={{ once: true }}
 			>
 				<h2 className="text-2xl md:text-3xl font-bold mb-12 text-primary flex items-center">
-					<span className="mr-2 text-secondary">03.</span> Projects
+					<span className="mr-2 text-secondary">04.</span> Projects
 				</h2>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-					{projects.reverse().map((project, index) => (
+					{projects.map((project, index) => (
 						<motion.div
 							key={index}
 							initial={{ opacity: 0, scale: 0.95 }}

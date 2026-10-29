@@ -6,6 +6,8 @@ import projectsData from "@/app/data/projects.json";
 import aboutData from "@/app/data/about.json";
 import skillsData from "@/app/data/skills.json";
 import contactData from "@/app/data/contact.json";
+import experienceData from "@/app/data/experience.json";
+import publicationsData from "@/app/data/publications.json";
 
 // --- Theme Definitions ---
 const THEMES: Record<string, Record<string, string>> = {
@@ -64,6 +66,18 @@ const fileSystem: Record<string, FileSystemNode> = {
 			"about.md": {
 				type: "file",
 				content: `Name: ${aboutData.profile.name}\nBio: ${aboutData.paragraphs}\nLocation: Chennai, India\nInterests: ${aboutData.profile.interests.join(", ")}`,
+			},
+			"experience.txt": {
+				type: "file",
+				content: experienceData
+					.map((job) => `${job.role} @ ${job.company} (${job.date}, ${job.location})\n${job.points.map((p) => `- ${p}`).join("\n")}`)
+					.join("\n\n"),
+			},
+			"publications.txt": {
+				type: "file",
+				content: publicationsData
+					.map((pub) => `Title: ${pub.title}\nAuthors: ${pub.authors}\nVenue: ${pub.venue}, ${pub.date}\nLink: ${pub.link}`)
+					.join("\n\n"),
 			},
 			"skills.json": {
 				type: "file",
@@ -129,7 +143,7 @@ const CommandInput = () => {
 						"  cd <dir>            - Change directory\n" +
 						"  cat <file>          - View file content\n" +
 						"  clear               - Clear terminal\n" +
-						"  about, skills, projects, contact - Scroll to sections";
+						"  about, experience, skills, projects, publications, contact - Scroll to sections";
 					break;
 				
 				case "theme":
@@ -184,6 +198,14 @@ const CommandInput = () => {
 				case "about":
 					document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
 					response = "Navigating to About section...";
+					break;
+				case "experience":
+					document.getElementById("experience")?.scrollIntoView({ behavior: "smooth" });
+					response = "Navigating to Experience section...";
+					break;
+				case "publications":
+					document.getElementById("publications")?.scrollIntoView({ behavior: "smooth" });
+					response = "Navigating to Publications section...";
 					break;
 				case "skills":
 					document.getElementById("skills")?.scrollIntoView({ behavior: "smooth" });

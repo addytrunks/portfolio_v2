@@ -1,17 +1,73 @@
 [
 	{
+		"title": "Dibs: Panel Review Slot Booking",
+		"description": "Replaces the email-based negotiation between capstone teams and review panels with a small booking system: panels publish slots, teams request them, the panel votes, and the outcome is visible to everyone instead of buried in an inbox.",
+		"tech": ["React JS", "Fast API", "PostgreSQL", "Docker", "Tanstack Query", "Tailwind CSS"],
+		"github": "https://github.com/addytrunks/Dibs",
+		"link": "https://github.com/addytrunks/Dibs"
+	},
+	{
+		"title": "Dialogue-to-Frame Localization",
+		"description": "Give it a video URL + a line of dialogue -> get back the exact timestamp frame number matched text, confidence, and the rendered frame image",
+		"tech": ["Python", "Streamlit", "Whisper", "Fast API", "VAD"],
+		"github": "https://github.com/addytrunks/dialogue-frame-locator",
+		"link": "https://youtu.be/FHyWBFyhU-w"
+	},
+	{
+		"title": "Cross-Domain Sentiment Analysis",
+		"description": "Benchmarks how sentiment models trained on 48K general YouTube comments transfer to a single video, comparing text-cleaning variants, embeddings, classifiers and a fine-tuned RoBERTa.",
+		"tech": ["Python", "PyTorch", "scikit-learn"],
+		"github": "https://github.com/addytrunks/domain_adaptation_sentiment_analysis",
+		"link": "https://github.com/addytrunks/domain_adaptation_sentiment_analysis"
+	},
+	{
+		"title": "Robust AI-Generated Image Detection",
+		"description": "EfficientNet-B5 detector for the NTIRE 2026 challenge that fuses RGB with an FFT frequency channel to spot AI-generated images under real-world distortions.",
+		"tech": ["Python", "PyTorch", "EfficientNet"],
+		"github": "https://github.com/addytrunks/IVP_NTIRE_2026",
+		"link": "https://github.com/addytrunks/IVP_NTIRE_2026"
+	},
+	{
+		"title": "Customer Care AWS",
+		"description": "A customer care chatbot (agent) built using langchain with AWS Runtime in Bedrock Agentcore.",
+		"tech": ["Python", "Langchain", "Langgraph", "AWS Bedrock"],
+		"github": "https://github.com/addytrunks/customer_care_aws",
+		"link": "https://github.com/addytrunks/customer_care_aws"
+	},
+	{
+		"title": "NewsLetter Agent",
+		"description": "An intelligent agent capable of autonomously finding relevant news articles on a given topic and compiling them into a professional, engaging newsletter.",
+		"tech": ["Python", "Langchain", "Langgraph", "SERP", "FastAPI", "OpenRouter"],
+		"github": "https://github.com/addytrunks/newsletter_agent",
+		"link": "https://github.com/addytrunks/newsletter_agent"
+	},
+	{
+		"title": "Lingua",
+		"description": "AI-driven communication system for seamless translation between speech, text, and Indian Sign Language (ISL).",
+		"tech": ["Python", "OpenCV", "Langchain"],
+		"github": "https://github.com/Team-GenX-H4CK3RS/Lingua",
+		"link": "https://github.com/Team-GenX-H4CK3RS/Lingua"
+	},
+	{
+		"title": "Trip Planner",
+		"description": "AI-based travel planning tool that generates personalized 7-day itineraries based on user preferences using Crew AI, Streamlit, and GPT-4.",
+		"tech": ["Python", "Langchain", "CrewAI", "GPT-4"],
+		"github": "https://github.com/addytrunks/trip_planner",
+		"link": "https://github.com/addytrunks/trip_planner"
+	},
+	{
+		"title": "Ask My PDF",
+		"description": "Allows users to upload documents and ask questions about their content using AI. Features secure auth and efficient document management.",
+		"tech": ["Next.js", "Langchain", "TypeScript"],
+		"github": "https://github.com/addytrunks/askMyPDF",
+		"link": "https://www.linkedin.com/posts/adhithya-srivatsan-359973211_nextjs-ai-langchain-activity-7230508596134830081-0jIu"
+	},
+	{
 		"title": "Vehicle Counter",
 		"description": "Utilizes YOLOv8 for real-time object detection and the SORT algorithm for tracking to accurately detect and count vehicles passing through a predefined line in a video feed.",
 		"tech": ["Python", "OpenCV", "YOLOv8"],
 		"github": "https://github.com/addytrunks/object-detection/tree/main/project_1_car_counter",
 		"link": "https://www.linkedin.com/posts/adhithya-srivatsan-359973211_machinelearning-computervision-yolo-activity-7213429946185076736-YZdJ"
-	},
-	{
-		"title": "Proximity",
-		"description": "Social media app displaying posts only within a 35 km radius. Features authentication, CRUD operations, and infinite scroll.",
-		"tech": ["Next.js", "MongoDB", "Tailwind", "Prisma"],
-		"github": "https://github.com/addytrunks/proximity",
-		"link": "https://proximity-seven.vercel.app"
 	},
 	{
 		"title": "Gesture Groove",
@@ -28,66 +84,10 @@
 		"link": "https://github.com/addytrunks/machine-learning/tree/main/ANN"
 	},
 	{
-		"title": "Ask My PDF",
-		"description": "Allows users to upload documents and ask questions about their content using AI. Features secure auth and efficient document management.",
-		"tech": ["Next.js", "Langchain", "TypeScript"],
-		"github": "https://github.com/addytrunks/askMyPDF",
-		"link": "https://www.linkedin.com/posts/adhithya-srivatsan-359973211_nextjs-ai-langchain-activity-7230508596134830081-0jIu"
-	},
-	{
-		"title": "Trip Planner",
-		"description": "AI-based travel planning tool that generates personalized 7-day itineraries based on user preferences using Crew AI, Streamlit, and GPT-4.",
-		"tech": ["Python", "Langchain", "CrewAI", "GPT-4"],
-		"github": "https://github.com/addytrunks/trip_planner",
-		"link": "https://github.com/addytrunks/trip_planner"
-	},
-	{
-		"title": "Lingua",
-		"description": "AI-driven communication system for seamless translation between speech, text, and Indian Sign Language (ISL).",
-		"tech": ["Python", "OpenCV", "Langchain"],
-		"github": "https://github.com/Team-GenX-H4CK3RS/Lingua",
-		"link": "https://github.com/Team-GenX-H4CK3RS/Lingua"
-	},
-	{
-		"title": "Customer Care AWS",
-		"description": "A customer care chatbot (agent) built using langchain with AWS Runtime in Bedrock Agentcore.",
-		"tech": ["Python", "Langchain","Langgraph" ,"AWS Bedrock"],
-		"github": "https://github.com/addytrunks/customer_care_aws",
-		"link": "https://github.com/addytrunks/customer_care_aws"
-	},
-		{
-		"title": "NewsLetter Agent",
-		"description": "An intelligent agent capable of autonomously finding relevant news articles on a given topic and compiling them into a professional, engaging newsletter.",
-		"tech": ["Python", "Langchain","Langgraph" ,"SERP","FastAPI","OpenRouter"],
-		"github": "https://github.com/addytrunks/newsletter_agent",
-		"link": "https://github.com/addytrunks/newsletter_agent"
-	},
-		{
-		"title": "Robust AI-Generated Image Detection",
-		"description": "EfficientNet-B5 detector for the NTIRE 2026 challenge that fuses RGB with an FFT frequency channel to spot AI-generated images under real-world distortions.",
-		"tech": ["Python", "PyTorch", "EfficientNet"],
-		"github": "https://github.com/addytrunks/IVP_NTIRE_2026",
-		"link": "https://github.com/addytrunks/IVP_NTIRE_2026"
-	},
-	{
-		"title": "Cross-Domain Sentiment Analysis",
-		"description": "Benchmarks how sentiment models trained on 48K general YouTube comments transfer to a single video, comparing text-cleaning variants, embeddings, classifiers and a fine-tuned RoBERTa.",
-		"tech": ["Python", "PyTorch", "scikit-learn"],
-		"github": "https://github.com/addytrunks/domain_adaptation_sentiment_analysis",
-		"link": "https://github.com/addytrunks/domain_adaptation_sentiment_analysis"
-	},
-	{
-		"title":"Dialogue-to-Frame Localization",
-		"description":"Give it a video URL + a line of dialogue -> get back the exact timestamp frame number matched text, confidence, and the rendered frame image",
-		"tech":["Python","Streamlit","Whisper","Fast API","VAD"],
-		"github":"https://github.com/addytrunks/dialogue-frame-locator",
-		"link":"https://youtu.be/FHyWBFyhU-w"
-	},
-	{
-		"title":"Dibs: Panel Review Slot Booking",
-		"description":"Replaces the email-based negotiation between capstone teams and review panels with a small booking system: panels publish slots, teams request them, the panel votes, and the outcome is visible to everyone instead of buried in an inbox.",
-		"tech":["React JS","Fast API","PostgreSQL","Docker","Tanstack Query","Tailwind CSS"],
-		"github":"https://github.com/addytrunks/Dibs",
-		"link":"https://github.com/addytrunks/Dibs"
+		"title": "Proximity",
+		"description": "Social media app displaying posts only within a 35 km radius. Features authentication, CRUD operations, and infinite scroll.",
+		"tech": ["Next.js", "MongoDB", "Tailwind", "Prisma"],
+		"github": "https://github.com/addytrunks/proximity",
+		"link": "https://proximity-seven.vercel.app"
 	}
 ]

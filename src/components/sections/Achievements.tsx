@@ -29,7 +29,7 @@ const Achievements = () => {
 				viewport={{ once: true }}
 			>
 				<h2 className="text-2xl md:text-3xl font-bold mb-12 text-primary flex items-center">
-					<span className="mr-2 text-secondary">03.</span> Achievements
+					<span className="mr-2 text-secondary">05.</span> Achievements
 				</h2>
 
 				<div className="grid gap-6 grid-cols-1 md:grid-cols-2">

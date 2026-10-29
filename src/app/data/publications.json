@@ -1,0 +1,11 @@
+[
+	{
+		"title": "Patch-Based Contrastive Learning with Latent Space Clustering for Unsupervised Sound Anomaly Detection",
+		"authors": "Abhivanth Sivaprakash, K Krish Sundaresh, Ankith Vijayyan, Adhithya Srivatsan, Chandrakala S",
+		"venue": "DCASE 2025 Challenge, Task 2 · Technical Report",
+		"date": "2025",
+		"description": "Our submission to DCASE 2025 Task 2, which asks for first-shot detection of faulty machine sounds using only recordings of normal operation. We split log-Mel spectrograms into overlapping patches, encode each patch with a ResNet-34 trained contrastively, and pool them with attention that can also use machine metadata when it's available. Test clips are scored by Mahalanobis distance to normal clusters for each domain. The method beat the official baselines in target-domain AUC on 5 of 7 machine types and reached 94.16% source-domain AUC on valve.",
+		"tags": ["Anomaly Detection", "Contrastive Learning", "Audio", "PyTorch"],
+		"link": "https://dcase.community/documents/challenge2025/technical_reports/DCASE2025_Vijayyan_37_t2.pdf"
+	}
+]
